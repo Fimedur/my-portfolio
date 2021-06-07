@@ -30,7 +30,7 @@ ul {
   }
   #About{
       display: flex;
-      padding:200px 300px;
+      padding:100px 350px;
   }
   .Details{
     padding-left: 100px;
@@ -38,7 +38,7 @@ ul {
     
   }
   .Picture{
-    padding-left: 100px;
+    padding-left: 200px;
     padding-right: 100px;
   }
   #hello{
@@ -49,9 +49,31 @@ ul {
     line-height: 10px; 
     color: #363958;
   }
+  #pInfo{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color : brown;
+  }
   .Picture img{
       width: 465px;
       height: 613px;
   }
+  .button{
+    width: 170px;
+    height: 60px;
+    left: 135px;
+    top: 442px;
+    background-color:salmon;
+    border-radius: 5px;
+    border:none;
+    font-size: 20px;
+  }
+  .button:hover {
+    background-color: blueviolet; /* Green */
+    color: white;
+  }
+
   
   
