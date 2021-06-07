@@ -1,0 +1,57 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+  }
+  
+  li {
+    float:right;
+    
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+   
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  #About{
+      display: flex;
+      padding:200px 300px;
+  }
+  .Details{
+    padding-left: 100px;
+    padding-right: 100px;
+    
+  }
+  .Picture{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  #hello{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 10px; 
+    color: #363958;
+  }
+  .Picture img{
+      width: 465px;
+      height: 613px;
+  }
+  
+  
