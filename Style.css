@@ -85,5 +85,77 @@ ul {
     color: coral;
 
 }
+#Work{
+ display:flex;
+ text-align: center;
+}
+.card{
+  padding: 20px 20px;
+  width:30%;
+  margin :20px 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow:5px 10px 5px gray;
+}
+.card img{
+  width:100%
   
-  
+}
+.pName{
+  font-family: Roboto;
+  color:  #363958;
+  text-align: left;
+}
+h3{
+  font-family: Roboto;
+  color: darkgrey;
+  font-size:20px;
+  font-weight:normal;
+  text-align: left;
+}
+#Contact{
+  text-align: center;
+  padding-left: 350px;
+  padding-right:350px;
+}
+.Inquiry{
+width: 100%;
+height: 225px;
+border-radius:30px;
+background-image:linear-gradient(138.38deg, #5D69E9 -7.79%, #4225B6 98.72%);
+}
+.icon{
+  display: inline;
+  padding:20px 20px;
+}
+.wq{
+ display: flex;
+}
+.one{
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 300px;
+}
+.two{
+  padding-top: 70px;
+  padding-left: 350px;
+}
+#Lc{
+ width:100px;
+ height: 20px;
+ text-decoration: none; 
+ background-image: linear-gradient(180deg,lightsalmon,tomato);
+padding:25px 50px;
+border-radius: 5px;
+font-family: Bebas Neue;
+font-style: normal;
+font-size: 20px;
+color : white;
+}
+#WorkInqury{
+  font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    color:#ddd;  
+  }
