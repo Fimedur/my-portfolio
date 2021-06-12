@@ -113,16 +113,40 @@ h3{
   font-weight:normal;
   text-align: left;
 }
+
 #Contact{
-  text-align: center;
-  padding-left: 350px;
-  padding-right:350px;
+position: absolute;
+text-align: center;
+width: 906px;
+height: 225px;
+left: 350px;
+top: 2116px;
+
+/* Linear */
+
+background: linear-gradient(138.38deg, #5D69E9 -7.79%, #4225B6 98.72%);
+border-radius: 30px;
 }
 .Inquiry{
 width: 100%;
 height: 225px;
 border-radius:30px;
 background-image:linear-gradient(138.38deg, #5D69E9 -7.79%, #4225B6 98.72%);
+}
+#email{
+position: absolute;
+width: 123px;
+height: 24px;
+
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #696871;
 }
 .icon{
   display: inline;
@@ -141,21 +165,29 @@ background-image:linear-gradient(138.38deg, #5D69E9 -7.79%, #4225B6 98.72%);
   padding-left: 350px;
 }
 #Lc{
- width:100px;
- height: 20px;
- text-decoration: none; 
- background-image: linear-gradient(180deg,lightsalmon,tomato);
-padding:25px 50px;
+position: absolute;
+width: 134px;
+height: 60px;
+text-align:center;
+text-decoration: none; 
+background-image: linear-gradient(180deg,lightsalmon,tomato);
+padding-top: 10px ;
 border-radius: 5px;
-font-family: Bebas Neue;
+font-family: Roboto;
 font-style: normal;
-font-size: 20px;
+font-size: 25px;
 color : white;
+
 }
 #WorkInqury{
-  font-family: Bebas Neue;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 55px;
-    color:#ddd;  
+position: absolute;
+width: 277px;
+height: 64px;
+
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 64px;
+color: #FFFFFF;
   }
